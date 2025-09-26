@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #EDEFFF;
+  box-sizing: border-box;
+}
+
+
+#content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: thistle;
+  color: white;
+  height: 100vh;
+}
+
+.principal {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B1E2F;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+
+fieldset {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+input {
+  margin:10px ;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}
+
+#envio {
+  margin: 10px;
+  font-weight: bold;
+  width: 70px;
+}
+
+p a {
+  color: #F2FBFB;
+  font-weight: bold;
+}
+
+h2,h4,p {
+  padding: 20px;
+}
