@@ -54,7 +54,7 @@ padding-top: 30px;
 
   align-items: center;
   border-radius: 0px;
-  width: 300px;
+  width: 100%;
   height: 100%;
   padding: 15px;
   padding-top: 70px;
@@ -77,12 +77,12 @@ padding-top: 30px;
 .sociais {
   background-color: whitesmoke;
   margin-top: 10px;
-  padding: 10px;
+  text-align: center;
   align-items: center;
   flex-flow: row ;
   justify-content: space-between;
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }
 
 #menu h3 {
@@ -99,7 +99,7 @@ padding-top: 30px;
   text-align: center;
   place-items: center;
   place-content: center;
-  grid-area: 1 / 1 / 2 / 3 ;
+  grid-area: 1 / 1 / 2 / 2 ;
   grid-template: repeat(9, auto) / 1fr 1fr ;
   gap: 5px;
   margin: 50px 5px;
